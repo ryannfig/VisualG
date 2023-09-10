@@ -1,0 +1,17 @@
+Algoritmo "semnome"
+
+Var
+// Seção de Declarações das variáveis 
+PB, IMP, MGL, PRF: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva("Digite o preço bruto: ")
+Leia(PB)
+Escreva("Digite o imposto: ")
+Leia(IMP)
+Escreva("Digite a margem de lucro: ")
+Leia(MGL)
+PRF <- PB+IMP+MGL
+Escreva("O preço final é: ", PRF)
+Fimalgoritmo
