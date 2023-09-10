@@ -1,0 +1,27 @@
+Algoritmo "semnome"
+
+Var
+   // Seção de Declarações das variáveis
+   M11, M12, M13: inteiro
+   M21, M22, M23: inteiro
+   M31, M32, M33: inteiro
+
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreva("Digite a matriz de M11  M21: ")
+   Leia(M11)
+   Leia(M21)
+   Escreva("Digite a matriz de M12 e M22: ")
+   Leia(M12)
+   Leia(M22)
+   Escreva("Digite a matriz de M13 e M23")
+   Leia(M13)
+   Leia(M23)
+
+   M31 <- M11+M21
+   M32 <- M12+M22
+   M33 <- M13+M23
+
+   Escreva("O resultado das matrizes é: ", M31, M32, M33)
+Fimalgoritmo
