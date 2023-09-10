@@ -1,0 +1,17 @@
+Algoritmo "Mde7"
+
+Var
+// Seção de Declarações das variáveis 
+M, res: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva("Digite um numero: ")
+Leia(M)
+res <- M % 7
+Se (res = 0) entao
+Escreval("Número", M, " é multiplo de 7")
+senao
+Escreval("Número", M, " nao é multiplo de 7")
+FimSe
+Fimalgoritmo
