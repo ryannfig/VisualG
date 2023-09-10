@@ -1,0 +1,12 @@
+Algoritmo "semnome"
+Var
+// Seção de Declarações das variáveis 
+L1, area: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Digite um número: ")
+Leia(L1)
+area <- L1*L1
+Escreval("A area do quadrado é: ", area)
+Fimalgoritmo
