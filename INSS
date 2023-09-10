@@ -1,0 +1,13 @@
+Algoritmo "semnome"
+
+Var
+// Seção de Declarações das variáveis 
+sal, salF: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva("Digite o valor do salario: ")
+Leia(sal)
+salF <- (14/100)*sal
+Escreva("Valor do INSS: ", salF)
+Fimalgoritmo
