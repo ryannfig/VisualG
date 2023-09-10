@@ -1,0 +1,17 @@
+Algoritmo "FIMSE"
+
+Var
+// Seção de Declarações das variáveis 
+ano: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval(" Em que ano vamos viajar ?")
+Leia(ano)
+Se (ano = 2023) então
+Escreval("Eba, está próximo!")
+Senão
+Escreval("Está longe ainda.")
+FimSe
+
+Fimalgoritmo
