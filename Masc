@@ -1,0 +1,17 @@
+Algoritmo "SEmasc"
+
+Var
+// Seção de Declarações das variáveis 
+idade: inteiro
+sexo: caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Leia(idade)
+Leia(sexo)
+Se(idade >=18) entao
+Escreval("Masculino, maior")
+Senao
+Escreval("Masculino, menor.")
+FimSe
+Fimalgoritmo
