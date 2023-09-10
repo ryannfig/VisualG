@@ -1,0 +1,21 @@
+Algoritmo "NASC"
+
+Var
+// Seção de Declarações das variáveis 
+ano, nasc, idade: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva("Em que ano estamos? ")
+Leia(ano)
+Escreva("Em que ano voce nasceu?")
+Leia(nasc)
+idade <- ano-nasc
+Escreva("Voce tem ", idade, "anos")
+Se (idade >= 21) então
+Escreva(" Voce atingiu a maioridade. ")
+senão
+Escreva(" Voce nao atingiu a maioridade")
+FimSe
+
+Fimalgoritmo
