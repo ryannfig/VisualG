@@ -1,0 +1,23 @@
+Algoritmo "semnome"
+
+Var
+// Seção de Declarações das variáveis 
+A,B,C,X1,X2,delta, raiz: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva("Digite o valor de A: ")
+Leia(A)
+Escreva("Digite o valor de B: ")
+Leia(B)
+Escreva("Digite o valor de C: ")
+Leia(C)
+
+delta <- (B*B)-4*(A)*(C)
+raiz <- raizq(delta)
+X1 <- (-B)+raiz/2*A
+X2 <- (-B)-raiz/2*A
+
+Escreval("O valor de x1 é: ", X1)
+Escreval("O valor de x2 é: ", X2)
+Fimalgoritmo
