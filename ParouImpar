@@ -1,0 +1,16 @@
+Algoritmo "semnome"
+
+Var
+   // Seção de Declarações das variáveis
+   n1: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   Escreval("Digite um número:")
+   Leia(n1)
+   Se (n1%2=0) entao
+      Escreval("O numero", n1," é par")
+   Senao
+      Escreva("O número", n1, " é ímpar.")
+   FimSe
+Fimalgoritmo
