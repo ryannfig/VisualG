@@ -1,0 +1,18 @@
+Algoritmo "semnome"
+
+Var
+// Seção de Declarações das variáveis 
+n, res: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva("Digite um número: ")
+Leia(n)
+res <- n % 3
+Se(res = 0) então
+Escreva("Numero par e divisível por 3. ")
+senão
+Escreva("Número não é divisível por 3. ")
+Fimse
+
+Fimalgoritmo
