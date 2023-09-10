@@ -1,0 +1,15 @@
+Algoritmo "semnome"
+Var
+// Seção de Declarações das variáveis 
+L1, L2, area: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva("Digite o lado maior: ")
+Leia(L1)
+Escreva("Digite o lado menor: ")
+Leia(L2)
+area <- L1*L2
+Escreva("A area do retangulo é: ", area)
+
+Fimalgoritmo
