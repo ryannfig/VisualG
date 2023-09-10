@@ -1,0 +1,17 @@
+Algoritmo "velocidade"
+
+Var
+// Seção de Declarações das variáveis 
+km: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva("Digite a velocidade de determinado automóvel: ")
+Leia(km)
+Se(km >= 110) então
+Escreva(" Ultrapassa o limite indicado.")
+Senao
+Escreva(" Inferior ao limite indicado.")
+FimSe
+
+Fimalgoritmo
