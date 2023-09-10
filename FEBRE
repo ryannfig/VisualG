@@ -1,0 +1,16 @@
+Algoritmo "Febre"
+
+Var
+// Seção de Declarações das variáveis 
+F: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("Digite a temperatura da pessoa: ")
+Leia(F)
+Se(F >= 36.5) entao
+Escreval("Está com febre. ")
+Senao
+Escreval("Não está com febre. ")
+FimSe
+Fimalgoritmo
